@@ -74,6 +74,9 @@ _, path = tempfile.mkstemp()
 #f = open(path, 'wb')
 #os.remove("ovpn/*.ovpn")
 
+if not os.path.exists("ovpn"):
+    os.makedirs("ovpn")
+
 test = os.listdir("ovpn")
 
 for item in test:
