@@ -20,7 +20,7 @@ Make sure requests module of python is installed and firstly grab an ovpn config
 The argument for vpngate.py is two letter country code for available countries.
 
 ```
-python vpngate.py jp
+python first_vpngate.py jp
 ```
 
 Make sure ovpn file is successfully generated and then secondly start ovpnsocks Docker instance.
@@ -47,7 +47,7 @@ Explain how to switch servers when you want or previous server is down.
 
 Choose new ovpn location.
 ```
-python vpngate.py kr
+python first_vpngate.py kr
 ```
 
 ### And restart ovpnsocks Docker instance.
