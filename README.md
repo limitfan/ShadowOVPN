@@ -43,14 +43,14 @@ Now you can connect OpenVPN server with your designated ovpn file with shadowsoc
 
 Explain how to switch servers when you want or previous server is down.
 
-### Extracting new server from vpngate.
+### Extracting new server from vpngate
 
 Choose new ovpn location.
 ```
 python first_vpngate.py kr
 ```
 
-### And restart ovpnsocks Docker instance.
+### And restart ovpnsocks Docker instance
 
 Docker restarts ovpnsocks instance.
 ```
